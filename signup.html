@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+	<title></title>
+	<script src="signupValidation.js"></script>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="row py-3">
+
+			<h5>Already a member? <a href="login.html">Click Here</a></h5>
+			<div class="col-md-6" id="first">
+		        <div class="form-group">
+		            <br><input type="text" name="name" placeholder="Full Name" id="name" class="form-control">
+		        </div>
+		    </div>
+
+		    <div class="col-md-6" id="first">
+		        <div class="form-group">
+		            <br><input type="text" name="email" placeholder="Email" id="email" class="form-control">
+		        </div>
+		    </div>		  
+
+		    <div class="col-md-6" id="first">
+		        <div class="form-group">
+		            <br><select id="country" class="form-control">
+		            	<option>Nepal</option>
+
+		            </select>
+		        </div>
+		    </div>
+
+			<div class="col-md-6" id="first">
+		        <div class="form-group">
+		            <br><input type="text" name="number" placeholder="Mobile number" id="number" class="form-control">
+		        </div>
+		    </div>
+
+		    <div class="col-md-6" id="first">
+		        <div class="form-group">
+		            <br><input type="password" name="password" placeholder="Password" id="password" class="form-control">
+		            <small class="form-text text-muted">Your password must be more than 5 characters<br></small>
+		            
+		        </div>
+		    </div>
+
+		    <div class="btn">
+			    <br><button class="btn btn-primary" onclick="validate()">Register</button>
+		    </div>
+		    
+
+		</div>
+	</div>
+
+
+</body>
+</html>
